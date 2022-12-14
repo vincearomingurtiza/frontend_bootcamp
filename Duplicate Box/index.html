@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duplicate Box</title>
+    <link rel="stylesheet" href="./assets/css/custom/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./assets/js/custom/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span></span>
+            <h3>Duplicate Box Activity</h3>
+        </div>
+    </header>
+
+    <section id="activity_one">
+        <div class="container">
+            <form action="#">
+                <label> Select a number:</label>
+                <select id="act1_select" name="select_number">
+                    <option value="0" hidden></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>    
+                </select>
+            </form>
+            <ul id="act1_list" class="user_list no_data">
+                <h3>No Data</h3>
+                
+            </ul>
+            <ul class="cloned_list">
+                <li class="act1_item clone_item"><img src="./assets/image/jerooin.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="activity_two">
+        <div class="container">
+            <form action="#">
+                <label>Select a number:</label>
+                <select id="act2_select">
+                    <option value="0" selected hidden></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </form>
+            <ul id="act2_list" class="user_list no_data">
+                <h3>No Data</h3>
+            </ul>
+            <ul class="cloned_list act2_list">
+                <li class="act2_item clone_item">
+                    <img src="./assets/image/danielwacky.png" alt="daniel_profile">
+                    <span class="delete_btn"><i class="fa fa-times delete_icon" aria-hidden="true"></i></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="activity_three">
+        <div class="container">
+            <form action="#">
+                <label> Select a multiplier:</label>
+                <select id="act3_select">
+                    <option value="0" hidden></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>    
+                </select>
+            </form>
+            <div id="multiplier_list">
+                <h3>No Data</h3>
+                <!-- Multiplication Table Here -->
+                
+                <!-- for viewing only -->
+                <ul class="byone"></ul>
+                <ul class="bytwo"></ul>
+                <ul class="bythree"></ul>
+                <ul class="byfour"></ul>
+                <ul class="byfive"></ul>
+                <ul class="bysix"></ul>
+                <ul class="byseven"></ul>
+                <ul class="byeight"></ul>
+                <ul class="bynine"></ul>
+                <ul class="byten"></ul>
+            <div>
+        </div>
+    </section>
+
+    <footer></footer>
+</body>
+</html>

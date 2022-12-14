@@ -1,0 +1,207 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  margin: 0px;
+}
+* body {
+  background-color: #2C2D34;
+}
+* body header {
+  background-color: #1E1F25;
+  padding: 20px 0px;
+}
+* body header .container {
+  margin: 0px auto;
+  max-width: 800px;
+}
+* body header .container span {
+  background-color: #fff;
+  outline: solid 5px #1299F6;
+  border: solid #264C7A;
+  border-width: 8px 8px 0px 0px;
+  display: inline-block;
+  height: 10px;
+  margin-right: 25px;
+  transform: rotate(180deg);
+  vertical-align: middle;
+  width: 10px;
+}
+* body header .container h3 {
+  color: #1299F6;
+  display: inline-block;
+  font: normal 800 22px 'Proxima Nova';
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+* body header:hover {
+  background-color: #000;
+}
+* body section {
+  margin: 75px 30px 30px 30px;
+}
+* body section .container {
+  height: 100%;
+  margin: 0px auto;
+  max-width: 800px;
+}
+* body section form {
+  align-items: center;
+  border-bottom: solid 2px #3F404A;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+* body section form label {
+  color: #6D7186;
+  font: normal 700 18px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  text-transform: uppercase;
+}
+* body section form select {
+  background-color: transparent;
+  border-radius: 4px;
+  color: #6D7186;
+  padding: 7px 10px;
+  width: 200px;
+  border: solid 2px #6D7186;
+  font: normal 400 20px 'Proxima Nova';
+}
+* body section form select:focus {
+  outline: none;
+}
+* body section form select option {
+  background-color: #2C2D34;
+  font: normal 400 20px 'Proxima Nova';
+}
+* body section .no_data h3 {
+  display: block !important;
+}
+* body section .cloned_list {
+  display: none;
+}
+* body section .user_list {
+  border: none;
+  background-color: #1E1F25;
+  border-radius: 8px;
+  list-style: none;
+  padding: 47px;
+  text-align: center;
+  transition: 0.21s;
+  text-align: left;
+  position: relative;
+}
+* body section .user_list.active_list {
+  background-color: #1E1F25;
+  border: none;
+}
+* body section .user_list h3 {
+  color: #6D7186;
+  font: normal 400 18px 'Proxima Nova';
+  left: 45.5%;
+  position: absolute;
+  right: 45.5%;
+  text-align: center;
+  top: 45%;
+  display: none;
+}
+* body section .user_list .clone_item {
+  display: none;
+}
+* body section .user_list li {
+  background-color: #3A3C46;
+  border-radius: 10px;
+  border: solid 5px #3F404A;
+  display: inline-block;
+  padding: 10px;
+  margin: 4px;
+  transition: 0.21s;
+  position: relative;
+}
+* body section .user_list li:hover {
+  background-color: #fff;
+  border: solid 5px #C1C1C1;
+}
+* body section .user_list li:hover img {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+* body section .user_list li img {
+  border-radius: 100%;
+  width: 100px;
+}
+* body #activity_two .container #act2_list .act2_item .delete_btn {
+  width: 0px;
+  height: 0px;
+  background-color: #FF3E28;
+  position: absolute;
+  top: -15px;
+  right: -10px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* body #activity_two .container #act2_list .act2_item .delete_btn i {
+  color: #fff;
+  font-size: 0px;
+}
+* body #activity_two .container #act2_list .act2_item .delete_btn:hover {
+  background-color: red;
+  transition: 0.21s;
+}
+* body #activity_two .container #act2_list .act2_item:hover {
+  background-color: #fff;
+  border: solid 5px #C1C1C1;
+}
+* body #activity_two .container #act2_list .act2_item:hover .delete_btn {
+  width: 30px !important;
+  height: 30px !important;
+}
+* body #activity_two .container #act2_list .act2_item:hover .delete_btn i {
+  font-size: 20px;
+  color: #fff;
+}
+* body #activity_two .container #act2_list .act2_item:hover img {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+* body #activity_three .container #multiplier_list {
+  border: dashed 4px #3F404A;
+  background-color: transparent;
+  border-radius: 8px;
+  list-style: none;
+  padding: 47px;
+  text-align: center;
+  transition: 0.21s;
+  text-align: left;
+  font-size: 0px;
+}
+* body #activity_three .container #multiplier_list ul {
+  padding: 0px;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  margin: 0px 1px;
+  font-size: 0px;
+  width: 67px;
+}
+* body #activity_three .container #multiplier_list ul li {
+  width: 67px;
+  /*65*/
+  text-align: center;
+  font: normal 800 18px 'Proxima Nova';
+  color: #1E1F25;
+  margin: 1px;
+  display: block;
+}
+* body footer {
+  padding: 50px;
+  background-color: #000;
+  margin-top: 50px;
+}
