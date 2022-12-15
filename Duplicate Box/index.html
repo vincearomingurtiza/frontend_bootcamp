@@ -13,8 +13,10 @@
 <body>
     <header>
         <div class="container">
-            <span></span>
-            <h3>Duplicate Box Activity</h3>
+            <a href="">
+                <span></span>
+                <h2>Duplicate Box Activity</h2>
+            </a>
         </div>
     </header>
 
@@ -22,7 +24,7 @@
         <div class="container">
             <form action="#">
                 <label> Select a number:</label>
-                <select id="act1_select" name="select_number">
+                <select id="act1_select">
                     <option value="0" hidden></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -37,11 +39,9 @@
                 </select>
             </form>
             <ul id="act1_list" class="user_list no_data">
-                <h3>No Data</h3>
-                
             </ul>
             <ul class="cloned_list">
-                <li class="act1_item clone_item"><img src="./assets/image/jerooin.png" alt=""></li>
+                <li class="act1_item clone_item"><img src="./assets/image/user1.png" alt="user_profile"></li>
             </ul>
         </div>
     </section>
@@ -51,7 +51,7 @@
             <form action="#">
                 <label>Select a number:</label>
                 <select id="act2_select">
-                    <option value="0" selected hidden></option>
+                    <option value="0" hidden></option>
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -65,11 +65,10 @@
                 </select>
             </form>
             <ul id="act2_list" class="user_list no_data">
-                <h3>No Data</h3>
             </ul>
             <ul class="cloned_list act2_list">
                 <li class="act2_item clone_item">
-                    <img src="./assets/image/danielwacky.png" alt="daniel_profile">
+                    <img src="./assets/image/user2.png" alt="user_profile">
                     <span class="delete_btn"><i class="fa fa-times delete_icon" aria-hidden="true"></i></span>
                 </li>
             </ul>
@@ -94,16 +93,19 @@
                     <option value="10">10</option>    
                 </select>
             </form>
-            <div id="multiplication_table">
-                <h3>No Data</h3>
-                <!-- Multiplication Table Here -->
-                
-                <!-- for viewing only -->
-                <ul class="multiplier_list"></ul>
-            <div>
+            <div id="multiplication_table" class="no_data">
+                <ul class="by1"></ul>
+                <ul class="by2"></ul>
+                <ul class="by3"></ul>
+                <ul class="by4"></ul>
+                <ul class="by5"></ul>
+                <ul class="by6"></ul>
+                <ul class="by7"></ul>
+                <ul class="by8"></ul>
+                <ul class="by9"></ul>
+                <ul class="by10"></ul>
+            </div>
         </div>
     </section>
-
-    <footer></footer>
 </body>
 </html>

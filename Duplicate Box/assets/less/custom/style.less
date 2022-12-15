@@ -15,23 +15,23 @@ html, body{
             .container{
                 margin: 0px auto;
                 max-width: 800px;
-                // 1299F6
+
                 span{
                     background-color: #fff;
-                    outline: solid 5px #1299F6;
                     border: solid #264C7A;
                     border-width: 8px 8px 0px 0px;
                     display: inline-block;
                     height: 10px;
                     margin-right: 25px;
-                    transform: rotate(180deg);
+                    outline: solid 5px #1299F6;
+                    transform: rotate(130deg);
                     vertical-align: middle;
                     width: 10px;
+                    box-shadow: rgba(32, 91, 219, 0.4) 5px 5px, rgba(83, 110, 231, 0.3) 10px 10px, rgba(58, 116, 232, 0.2) 15px 15px, rgba(47, 74, 250, 0.1) 20px 20px, rgba(47, 2, 207, 0.05) 25px 25px;
                 }
     
-                h3{
+                h2{
                     color: #1299F6;
-                    // color: #fff;
                     display: inline-block;
                     font: normal 800 22px 'Proxima Nova';
                     letter-spacing: 1px;
@@ -75,11 +75,11 @@ html, body{
                 select{
                     background-color: transparent;
                     border-radius: 4px;
+                    border: solid 2px #6D7186;
                     color: #6D7186;
+                    font: normal 400 20px 'Proxima Nova';
                     padding: 7px 10px;
                     width: 200px;
-                    border: solid 2px #6D7186;
-                    font: normal 400 20px 'Proxima Nova';
 
                     &:focus{
                         outline: none;
@@ -91,46 +91,21 @@ html, body{
                     }
                 }
             }
-            
-            .no_data{
-                // border: dashed 4px #3F404A !important;
-                // background-color: transparent !important;
-
-                h3{
-                    display: block !important;
-                }
-            }
 
             .cloned_list{
                 display: none;
             }
 
-            .user_list{
-                border: none;
+            .user_list {
                 background-color: #1E1F25;
                 border-radius: 8px;
+                border: none;
                 list-style: none;;
                 padding: 47px;
-                text-align: center;
-                transition: 0.21s;
-                text-align: left;
                 position: relative;
-
-                &.active_list{
-                    background-color: #1E1F25;
-                    border: none;
-                }
-
-                h3{
-                    color: #6D7186;
-                    font: normal 400 18px 'Proxima Nova';
-                    left: 45.5%;
-                    position: absolute;
-                    right: 45.5%;
-                    text-align: center;
-                    top: 45%;
-                    display: none;
-                }
+                text-align: center;
+                text-align: left;
+                transition: 0.21s;
 
                 .clone_item{
                     display: none;
@@ -141,10 +116,10 @@ html, body{
                     border-radius: 10px;
                     border: solid 5px #3F404A;
                     display: inline-block;
-                    padding: 10px;
                     margin: 4px;
-                    transition: 0.21s;
+                    padding: 10px;
                     position: relative;
+                    transition: 0.21s;
 
                     &:hover{
                         background-color: #fff;
@@ -168,16 +143,16 @@ html, body{
                 #act2_list{
                     .act2_item{
                         .delete_btn{
-                            width: 0px;
-                            height: 0px;
+                            align-items: center;
                             background-color: #F2544E;
-                            position: absolute;
-                            top: -15px;
-                            right: -10px;
                             border-radius: 100%;
                             display: flex;
-                            align-items: center;
+                            height: 0px;
                             justify-content: center;
+                            position: absolute;
+                            right: -10px;
+                            top: -15px;
+                            width: 0px;
 
                             i{
                                 color: #fff;
@@ -195,12 +170,12 @@ html, body{
                             border: solid 5px #C1C1C1;
 
                             .delete_btn{
-                                width: 30px !important;
                                 height: 30px !important;
+                                width: 30px !important;
 
                                 i{
-                                    font-size: 20px;
                                     color: #fff;
+                                    font-size: 20px;
                                 }
                             }
                             
@@ -214,19 +189,19 @@ html, body{
         }
 
         #activity_three{
+            padding-bottom: 50px;
+
             .container{
                 #multiplication_table{
-                    // border: dashed 4px #3F404A;
                     background-color: #1E1F25;
-                    // background-color: transparent;
                     border-radius: 8px;
+                    font-size: 0px;
                     list-style: none;;
                     padding: 47px;
+                    position: relative;
                     text-align: center;
+                    text-align: left;
                     transition: 0.21s;
-                    text-align: center;
-                    font-size: 0px;
-                    // height: 100px;
 
                     ul{
                         padding: 0px;
@@ -236,26 +211,19 @@ html, body{
                         list-style: none;
                         margin: 0px 1px;
                         font-size: 0px;
-                        // width: 67px;
-                        // height: 670px;
-
-                        &.add_height_on_list{
-                            // height: 670px !important;
-                        }
-                
+                        width: 67px;
 
                         li{
                             background-color: #2C2D34;
-                            padding: 20px 0px;
+                            border-radius: 5px;
                             color: #1E1F25;
-                            display: inline-block;
-                            // display: block;
+                            display: block;
                             font: normal 800 18px 'Proxima Nova';
                             margin: 1px;
+                            padding: 22px 0px;
                             text-align: center;
-                            width: 67.81px; /*65*/
-                            border-radius: 5px;
                             transition: 0.21s;
+                            width: 67.81px; /*65*/
                             
                             &:hover{
                                 background-color: #3A3C46;
@@ -264,12 +232,6 @@ html, body{
                     }
                 }
             }
-        }
-
-        footer{
-            padding: 50px;
-            background-color:#000;
-            margin-top: 50px;
         }
     }
 }

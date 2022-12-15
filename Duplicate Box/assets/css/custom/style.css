@@ -18,17 +18,18 @@ body {
 }
 * body header .container span {
   background-color: #fff;
-  outline: solid 5px #1299F6;
   border: solid #264C7A;
   border-width: 8px 8px 0px 0px;
   display: inline-block;
   height: 10px;
   margin-right: 25px;
-  transform: rotate(180deg);
+  outline: solid 5px #1299F6;
+  transform: rotate(130deg);
   vertical-align: middle;
   width: 10px;
+  box-shadow: rgba(32, 91, 219, 0.4) 5px 5px, rgba(83, 110, 231, 0.3) 10px 10px, rgba(58, 116, 232, 0.2) 15px 15px, rgba(47, 74, 250, 0.1) 20px 20px, rgba(47, 2, 207, 0.05) 25px 25px;
 }
-* body header .container h3 {
+* body header .container h2 {
   color: #1299F6;
   display: inline-block;
   font: normal 800 22px 'Proxima Nova';
@@ -67,11 +68,11 @@ body {
 * body section form select {
   background-color: transparent;
   border-radius: 4px;
+  border: solid 2px #6D7186;
   color: #6D7186;
+  font: normal 400 20px 'Proxima Nova';
   padding: 7px 10px;
   width: 200px;
-  border: solid 2px #6D7186;
-  font: normal 400 20px 'Proxima Nova';
 }
 * body section form select:focus {
   outline: none;
@@ -80,36 +81,19 @@ body {
   background-color: #2C2D34;
   font: normal 400 20px 'Proxima Nova';
 }
-* body section .no_data h3 {
-  display: block !important;
-}
 * body section .cloned_list {
   display: none;
 }
 * body section .user_list {
-  border: none;
   background-color: #1E1F25;
   border-radius: 8px;
+  border: none;
   list-style: none;
   padding: 47px;
-  text-align: center;
-  transition: 0.21s;
-  text-align: left;
   position: relative;
-}
-* body section .user_list.active_list {
-  background-color: #1E1F25;
-  border: none;
-}
-* body section .user_list h3 {
-  color: #6D7186;
-  font: normal 400 18px 'Proxima Nova';
-  left: 45.5%;
-  position: absolute;
-  right: 45.5%;
   text-align: center;
-  top: 45%;
-  display: none;
+  text-align: left;
+  transition: 0.21s;
 }
 * body section .user_list .clone_item {
   display: none;
@@ -119,10 +103,10 @@ body {
   border-radius: 10px;
   border: solid 5px #3F404A;
   display: inline-block;
-  padding: 10px;
   margin: 4px;
-  transition: 0.21s;
+  padding: 10px;
   position: relative;
+  transition: 0.21s;
 }
 * body section .user_list li:hover {
   background-color: #fff;
@@ -136,16 +120,16 @@ body {
   width: 100px;
 }
 * body #activity_two .container #act2_list .act2_item .delete_btn {
-  width: 0px;
-  height: 0px;
+  align-items: center;
   background-color: #F2544E;
-  position: absolute;
-  top: -15px;
-  right: -10px;
   border-radius: 100%;
   display: flex;
-  align-items: center;
+  height: 0px;
   justify-content: center;
+  position: absolute;
+  right: -10px;
+  top: -15px;
+  width: 0px;
 }
 * body #activity_two .container #act2_list .act2_item .delete_btn i {
   color: #fff;
@@ -160,24 +144,29 @@ body {
   border: solid 5px #C1C1C1;
 }
 * body #activity_two .container #act2_list .act2_item:hover .delete_btn {
-  width: 30px !important;
   height: 30px !important;
+  width: 30px !important;
 }
 * body #activity_two .container #act2_list .act2_item:hover .delete_btn i {
-  font-size: 20px;
   color: #fff;
+  font-size: 20px;
 }
 * body #activity_two .container #act2_list .act2_item:hover img {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+* body #activity_three {
+  padding-bottom: 50px;
+}
 * body #activity_three .container #multiplication_table {
   background-color: #1E1F25;
   border-radius: 8px;
+  font-size: 0px;
   list-style: none;
   padding: 47px;
-  transition: 0.21s;
+  position: relative;
   text-align: center;
-  font-size: 0px;
+  text-align: left;
+  transition: 0.21s;
 }
 * body #activity_three .container #multiplication_table ul {
   padding: 0px;
@@ -187,25 +176,21 @@ body {
   list-style: none;
   margin: 0px 1px;
   font-size: 0px;
+  width: 67px;
 }
 * body #activity_three .container #multiplication_table ul li {
   background-color: #2C2D34;
-  padding: 20px 0px;
+  border-radius: 5px;
   color: #1E1F25;
-  display: inline-block;
+  display: block;
   font: normal 800 18px 'Proxima Nova';
   margin: 1px;
+  padding: 22px 0px;
   text-align: center;
+  transition: 0.21s;
   width: 67.81px;
   /*65*/
-  border-radius: 5px;
-  transition: 0.21s;
 }
 * body #activity_three .container #multiplication_table ul li:hover {
   background-color: #3A3C46;
-}
-* body footer {
-  padding: 50px;
-  background-color: #000;
-  margin-top: 50px;
 }
