@@ -36,14 +36,18 @@ function deleteButton(){
 
 function activityThree(){
     let selected_value  = $("#act3_select option:selected").val();
-    $(".by1, .by2, .by3, .by4, .by5, .by6, .by7, .by8, .by9, .by10").empty();
-    
-    for (let count_start = 1; count_start <= selected_value; count_start++){
+    $("#multiplication_table").empty();
 
+    for (let count_start = 1; count_start <= selected_value; count_start++){
+        // append ul here on division id = "multiplication_table"
+        let multiplier_list = $("<ul>", {class: "by" + count_start} );
+        $("#multiplication_table").append(multiplier_list);
+        
         for (let multiply_by = 1; multiply_by <= 10; multiply_by++){ 
-            let sum = multiply_by * count_start;
+            
+            let product = multiply_by * count_start;
             if ( count_start == count_start){
-                $(".by" + count_start).append("<li> " + sum + "</li>");
+                $(".by" + count_start).append("<li> " + product + "</li>");
             }
         }
     }
